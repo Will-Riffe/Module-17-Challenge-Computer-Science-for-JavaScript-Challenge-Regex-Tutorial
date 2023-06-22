@@ -59,3 +59,16 @@ to better
 
 ## 5. Grouping and Capturing
     Grouping is done in parenthesis '()' to designate sections as monolithic units; this defines a section where a string may be Captured in it's whole. For example, in the email matching regex, we can see the three groups we've already covered, the username, domain, and top-level domain groups. 
+
+
+
+## Summary
+The regex `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` matches email addresses in a format, like the following:
+- `username123@domain.com`
+- `user_name@domain.net`
+- `user.name@domain.co.uk`
+
+Regex ensures email addresses have expected components— followed by the `@` symbol, a valid domain component, a dot `.` symbol, and, of course, a TLD component which all match our stated specifications.
+
+## About the Author
+My name is [Will Riffe](https://github.com/Will-Riffe), a student with Rutgers Bootcamps through EdX Bootcamps. Check out more of my work by clicking my name!
