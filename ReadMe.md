@@ -20,17 +20,20 @@ to better
 ## 1. The ^ Symbol- an Anchor
 The `^` (i.e. the circumflex, or 'anchor' in this case) is a symbol which starts the regex line, or string. In our case, it indicates that the email address should start at the beginning of the string.
 
-## 2. The Username Component
+## 2. Quantifiers
+Quantifiers are what regular expressions use to match characters in a specific component.
+
+### 2.1 The Username Component
 This is the username component: `[a-z0-9_\.-]+` 
 
 Our first 'quantifier', this username component matches characters of the username portion of an email address may contain. The Username Component accounts for lowercase letters (as we can see, there are only lowercase letters in the quantifier), digits, underscores, periods, and hyphens; the `+` symbol is a stated requirement that at least one of the listed characters are present.
 
-## 3. Domain Component
+### 2.2 Domain Component
 This is the domain component `[\da-z\.-]+` 
 
 Separated from the Username component by th '@' symbol, this 'quantifier' lists a range of characters which may appear in the domain portion of an email address. As you can see, it allows lowercase letters, periods, and hyphens. 
 
-## 4. TLD Component
+### 2.3 TLD Component
 The TLD (Top-Level Domain) component `[a-z\.]{2,6}` 
 
 This is where the typical '.com', '.net', etc could be expected. This quantifier matches the characters which can appear in the domain extension of an email address— allowing for lowercase letters and periods; the `{2,6}` quantifier specifies the TLD to be two to six characters long.
