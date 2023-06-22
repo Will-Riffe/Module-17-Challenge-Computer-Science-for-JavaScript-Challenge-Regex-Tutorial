@@ -43,3 +43,6 @@ to better
     The TLD (Top-Level Domain) component `[a-z\.]{2,6}` 
 
     This is where the typical '.com', '.net', etc could be expected. This quantifier matches the characters which can appear in the domain extension of an email address— allowing for lowercase letters and periods; the `{2,6}` quantifier specifies the TLD to be two to six characters long.
+
+## 5. Grouping and Capturing
+    Grouping is done in parenthesis '()' to designate sections as monolithic units; this defines a section where a string may be Captured in it's whole. For example, in the email matching regex, we can see the three groups we've already covered, the username, domain, and top-level domain groups. 
