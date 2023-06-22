@@ -17,6 +17,19 @@ Below, we'll deconstruct this seemingly jumbled mass of charactars in order
 to better 
 
 
+## Table of Contents
+1. [The ^ Symbol](#the--symbol)
+2. [Bracket Expressions](#bracket-expressions)
+3. [Character Classes](#character-classes)
+   - 3.1 [The Username Component](#the-username-component)
+4. [Quantifiers](#quantifiers)
+   - 4.1 [Domain Component](#domain-component)
+   - 4.2 [TLD Component](#tld-component)
+5. [Grouping and Capturing](#grouping-and-capturing)
+6. [Summary](#summary)
+7. [About the Author](#about-the-author)
+
+
 ## 1. The ^ Symbol- an Anchor
     The `^` (i.e. the circumflex, or 'anchor' in this case) is a symbol which starts the regex line, or string. In our case, it indicates that the email address should start at the beginning of the string.
 
