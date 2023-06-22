@@ -27,4 +27,10 @@ Our first 'quantifier', this username component matches characters of the userna
 
 ## 3. Domain Component
 This is the domain component `[\da-z\.-]+` 
+
 Separated from the Username component by th '@' symbol, this 'quantifier' lists a range of characters which may appear in the domain portion of an email address. As you can see, it allows lowercase letters, periods, and hyphens. 
+
+## 4. TLD Component
+The TLD (Top-Level Domain) component `[a-z\.]{2,6}` 
+
+This is where the typical '.com', '.net', etc could be expected. This quantifier matches the characters which can appear in the domain extension of an email address— allowing for lowercase letters and periods; the `{2,6}` quantifier specifies the TLD to be two to six characters long.
