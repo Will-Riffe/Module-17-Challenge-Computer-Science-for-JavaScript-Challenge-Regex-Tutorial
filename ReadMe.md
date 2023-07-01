@@ -1,6 +1,6 @@
 # Learn how to Match an Email Using Regex
 
-## Note: This module is actually supposed to be posted in a GitHub Gist; [Like So}(https://gist.github.com/Will-Riffe/4bd472c4ef74f87b956cf955a2fb7776)
+## Note: This module is actually supposed to be posted in a GitHub Gist; [Like So](https://gist.github.com/Will-Riffe/4bd472c4ef74f87b956cf955a2fb7776)
 
 ## 💡 Let's Go! 💡
 
